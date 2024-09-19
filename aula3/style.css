@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+    margin: 16px;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+body{
+    margin: auto;
+}
+
+header{
+    background: url(imagens/eletricista1.png) no-repeat center;
+    height: 1367px;
+    padding: 16px;
+}
+
+.fonteheader{
+    font-size: 5rem;
+    color: whitesmoke;
+}
+
+.titulo{
+    font-size: 5rem;
+}
+
+ul, li{
+    width: 300px;
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    background-color: #e80505;
+
+}
+
+li, a {
+    display: block;
+    color: whitesmoke;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none; /*remove o marcador*/
+    padding: 8px 16px;
+}
+
+.cetralizaimg{
+    display: block;
+    margin: 0;
+    max-width: 100%;
+}
+
+.section1{
+    float: left;
+    width: 75%;
+    margin-left: 16px;
+}
+
+.aside1{
+    float: right;
+    width: 20%;
+    margin: 0;
+
+}
+
+.section2{
+    background-color: #333333;
+    color: whitesmoke;
+    font-size: 3rem;
+    font-weight: bold;
+    clear: both;
+    height: 234px;
+    margin: 16px;
+    padding: 16px;
+    text-align: right;
+}
+
+.centralizadiv{
+    text-align: center;
+    
+}
+
+.servicos{
+    background-color: orange;
+    color: whitesmoke;
+    display: inline-flex;
+    padding: 0;
+    width: 215px;
+    height: 75px;
+    border-radius: 7px;
+}
+
+.divfooter{
+    padding: 20px;    
+    background-color: #333333;
+    color: whitesmoke;    
+    font-size: larger;
+    text-align: center;
+    margin: 0;
+}
+
+.divfooter img{
+    vertical-align: middle; /*centraliza a imagem com o texto*/
+}
+
+
+
+
